@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header-phone-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  display: none;
+}
+.header-phone-content-menu {
+  display: flex;
+  gap: 20px;
+}
+.header-phone-content-karzinka {
+  display: flex;
+  gap: 20px;
+}
+.contanier {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+.header__left__img2 {
+  display: none;
+}
+.header__left__img {
+  max-width: 280px;
+}
+.header__left {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+.header__left__content {
+  width: 100%;
+}
+.header__center__img1 {
+  margin-right: 50px;
+}
+.header__right {
+  display: flex;
+  gap: 30px;
+}
+.header__right__btn {
+  background-color: #e81212;
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+}
+.header__menu {
+  display: none;
+}
+.header__telephone {
+  display: none;
+}
+/*discount*/
+.discount-wrapper {
+  background-color: #e81212;
+}
+.discount {
+  display: flex;
+  align-items: center;
+  gap: 77px;
+}
+.discount__start {
+  padding: 30px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.discount__title {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+}
+.discount__list {
+  display: flex;
+  gap: 77px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+}
+/*hero*/
+.hero__wrapper {
+  background-image: url("./images/club.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.hero__left__title {
+  width: 390px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.88px;
+}
+.yelow {
+  color: yellow;
+}
+.hero__left__text {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.hero__btn {
+  background-color: #e81212;
+  padding: 15px 30px;
+  color: #fff;
+  border: none;
+  margin-bottom: 250px;
+}
+.hero__slider__sliedr {
+  padding-bottom: 60px;
+}
+/*married*/
+.maried {
+  margin-top: 100px;
+}
+.maried__images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.maried__img {
+  position: relative;
+}
+.maried__img span {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  .header-phone-content {
+    display: flex;
+  }
+  .contanier {
+    padding: 0 40px;
+  }
+  .header {
+    display: none;
+  }
+
+  .discount-wrapper {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+}
