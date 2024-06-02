@@ -419,4 +419,8 @@ a {
     font-weight: 600;
     line-height: 28.44px;
   }
+  .shop__navbar__list {
+    display: flex;
+    flex-direction: column;
+  }
 }
