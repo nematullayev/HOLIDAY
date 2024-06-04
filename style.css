@@ -207,6 +207,7 @@ a {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .shop__buy__thing {
   position: relative;
@@ -368,9 +369,16 @@ a {
 }
 .shop__cards {
   display: flex;
-  gap: 70px;
+  gap: 40px;
   flex-wrap: wrap;
   text-align: center;
+}
+.shop__card {
+  padding: 15px;
+  border-bottom: 1px solid rgb(251, 224, 224);
+  border-right: 1px solid rgb(251, 224, 224);
+  border-left: 1px solid rgb(251, 224, 224);
+  border-top: 1px solid rgb(251, 224, 224);
 }
 .shop__card__title {
   font-size: 25px;
@@ -381,6 +389,114 @@ a {
   max-width: 340px;
   color: #646469;
   font-size: 17px;
+}
+/*salyut-qismi*/
+.fireworks__img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.fireworks__image {
+  width: 100%;
+}
+.fireworks__2sect {
+  margin-left: 250px;
+  margin-bottom: 43px;
+  max-width: 700px;
+}
+.fireworks__2sect__title {
+  color: #443e3e;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42.66px;
+}
+.fireworks__2sect__text {
+  max-width: 700px;
+  margin-top: 30px;
+  color: #646469;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.fireworks__3sect {
+  background-color: #fbe0e0;
+  padding: 30px;
+  margin-left: 250px;
+  margin-bottom: 43px;
+  max-width: 700px;
+}
+.fireworks__3sect__title {
+  color: #443e3e;
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 42.66px;
+}
+.fireworks__3sect__text {
+  max-width: 700px;
+  margin-top: 30px;
+  color: #646469;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.fireworks__3sect__text2 {
+  max-width: 700px;
+  margin-top: 30px;
+  color: #646469;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+/*google&yandex*/
+.yandex__top {
+  margin-bottom: 40px;
+}
+.yandex__top__title {
+  font-family: Rubik;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42.66px;
+}
+.yandex__full {
+  display: flex;
+  gap: 100px;
+}
+.yandex__left {
+  display: flex;
+  flex-direction: column;
+}
+.yandex__left__first {
+  margin-bottom: 40px;
+}
+.yandex__left__first__title,
+.yandex__left__first__text,
+.yandex__left__first__img {
+  text-align: center;
+  margin-top: 5px;
+}
+.yandex__right__first__1__title {
+  margin-bottom: 10px;
+}
+.yandex__right {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+.yandex__right__first {
+  display: flex;
+  gap: 100px;
+}
+.promotion__botom {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.promotion__botom__images {
+  width: 380px;
 }
 @media only screen and (max-width: 1200px) {
   .header-phone-content {
@@ -420,6 +536,36 @@ a {
     line-height: 28.44px;
   }
   .shop__navbar__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .shop__buy {
+    justify-content: center;
+  }
+  .fireworks__2sect {
+    margin-left: 1px;
+  }
+  .fireworks__3sect {
+    margin-left: 1px;
+  }
+  .yandex {
+    justify-content: center;
+  }
+  .yandex__left {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .yandex__full {
+    display: flex;
+    flex-direction: column;
+  }
+  .yandex__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .promotion__botom {
     display: flex;
     flex-direction: column;
   }
