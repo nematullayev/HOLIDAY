@@ -496,7 +496,208 @@ a {
   margin-top: 40px;
 }
 .promotion__botom__images {
-  width: 380px;
+  width: 100%;
+}
+/*news__qismi*/
+.news__top {
+  margin-bottom: 48px;
+}
+.news__botom {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 55px;
+}
+.news__botom__left__img {
+  width: 100%;
+}
+.news__botom__right__all__text {
+  color: #646469;
+  margin-bottom: 10px;
+}
+.news__botom__right__all {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-left: 2px solid rgb(251, 224, 224);
+  border-bottom: 2px solid rgb(251, 224, 224);
+}
+.instagram {
+  margin-bottom: 100px;
+}
+.instagram__images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/*question*/
+.questions {
+  margin-bottom: 100px;
+}
+.questions__top {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.questions__btn {
+  margin-left: 350px;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  gap: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.questions__btn__text {
+  width: 158px;
+}
+/*contack-qismi*/
+.kontact {
+  margin-bottom: 100px;
+}
+.kontact__top {
+  margin-bottom: 50px;
+}
+.kontact__full {
+  display: flex;
+  gap: 100px;
+}
+.kontact__full__left__top__title {
+  margin-bottom: 10px;
+}
+.kontact__full__left__top {
+  margin-bottom: 30px;
+}
+.kontact__full__left__top__text {
+  max-width: 300px;
+}
+.kontact__full__left__top__text__two {
+  max-width: 200px;
+}
+.kontact__full__left__center {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+  border-bottom: 2px solid rgb(251, 224, 224);
+}
+.kontact__full__left__center__all {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.kontact__full__left__center__all__right {
+  border-bottom: 0.8px solid black;
+}
+.kontact__full__right__img {
+  width: 100%;
+}
+/*send__qismi*/
+.send {
+  background-image: url("./images/inputs__bacgraund__img.png");
+  margin-bottom: 100px;
+}
+.send__top {
+  text-align: center;
+  padding-top: 50px;
+}
+.send__top__title {
+  max-width: 500px;
+  color: white;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42.66px;
+  margin: 0 auto;
+}
+.send__top__text {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 450px;
+  color: white;
+  margin: 0 auto;
+}
+.send__inputs {
+  display: flex;
+  gap: 20px;
+}
+.send__inputs__input {
+  width: 260px;
+  padding-left: 50px;
+}
+.send__inputs__input_3 {
+  width: 260px;
+  padding-left: 50px;
+  display: flex;
+  gap: 20px;
+}
+.one__two__three {
+  color: #ccc;
+}
+.name {
+  padding: 10px 90px 10px 15px;
+  margin-bottom: 50px;
+}
+.send__inputs__btn__btn {
+  padding: 13px 90px;
+  border: none;
+  background-color: #e81212;
+  color: white;
+  margin-top: 16px;
+}
+.send__inputs__btn__btn:hover {
+  background-color: #e8121290;
+  color: #ffffff90;
+  cursor: pointer;
+}
+
+/*footer___qismi__boshlandi*/
+
+.footer__wraper {
+  background-color: #443e3e;
+}
+.footer {
+  padding-top: 50px;
+}
+.footer__all {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.footer__all__first__btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  background-color: #e81212;
+}
+.footer__all__second__1 {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.footer__all__third__1 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer__all__four {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.footer__botom__text {
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #cccccc90;
+  border-bottom: 1px solid #cccccc90;
+}
+.footer__botom__text__two {
+  text-align: center;
+  color: #cccccc90;
 }
 @media only screen and (max-width: 1200px) {
   .header-phone-content {
@@ -548,6 +749,9 @@ a {
   .fireworks__3sect {
     margin-left: 1px;
   }
+  .yandex__img {
+    width: 100%;
+  }
   .yandex {
     justify-content: center;
   }
@@ -567,6 +771,36 @@ a {
   }
   .promotion__botom {
     display: flex;
+    flex-direction: column;
+  }
+  .news__botom {
+    display: flex;
+    flex-direction: column;
+  }
+  .news__botom__right__all {
+    border-left: none;
+  }
+  .questions__btn {
+    margin-left: 1px;
+    gap: 200px;
+  }
+  .kontact__full {
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+  }
+  .kontact__full__left__center__all__right__texts {
+    color: #e81212;
+  }
+  .send__top__text {
+    max-width: 300px;
+  }
+  .send__inputs,
+  .send__inputs__input_3 {
+    flex-direction: column;
+    gap: 1px;
+  }
+  .footer__all {
     flex-direction: column;
   }
 }
